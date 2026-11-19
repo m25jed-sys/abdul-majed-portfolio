@@ -28,3 +28,16 @@
 .hero-photo-frame img {
   border-radius: 50%;
 }
+/* Android and mobile screen adjustment only */
+@media screen and (max-width: 600px) {
+  .hero-visual .hero-photo-frame {
+    width: 135px !important;
+    height: 135px !important;
+  }
+
+  .hero-visual .hero-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
